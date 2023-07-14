@@ -6,6 +6,9 @@ public class Flujo {
 		System.out.println("Inicio main");
 		metodo1();
 		System.out.println("Fin main");
+		
+		// throw: se utiliza solo para lanzar objetos que sean exceptions "errores"
+		throw new ArithmeticException();
 	}
 	
 	public static void metodo1() {
@@ -36,8 +39,7 @@ public class Flujo {
 				exception.printStackTrace();
 			}
 			// se puede crear varios "catch" o poner en el mismo catch los errores que el codigo pueda tener
-		}
-		
+		}		
 		System.out.println("Fin metodo2");
 	}
 
