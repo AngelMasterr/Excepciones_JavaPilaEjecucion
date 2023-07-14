@@ -7,8 +7,14 @@ public class Flujo {
 		metodo1();
 		System.out.println("Fin main");
 		
+		System.out.println("Lanzando exception java");		
 		// throw: se utiliza solo para lanzar objetos que sean exceptions "errores"
-		throw new ArithmeticException();
+		// throw new ArithmeticException("lanzando una excepcion");
+		
+		System.out.println("Lanzando mi exception propia");
+		// lanzando la exception creada por mi
+		// throw new MiException("Mi exception, propia");
+		
 	}
 	
 	public static void metodo1() {
